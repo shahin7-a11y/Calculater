@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculater.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculater-bigcontainer">
+        <div class="calculater-container">
+            <div class="calculater-heading">
+                <p>Casio </p>
+            </div>
+
+            <div class="div-1">
+                <input type="text" id="display" disabled>
+            </div>
+
+            <div class="div-2">
+
+                <div onclick="cleardisplay()" class="calculater-number-clear">
+                    <p>AC</p>
+                </div>
+                <div onclick="deletechar ()" class="calculater-number-clear">
+                    <p>←</p>
+                </div>
+                <div onclick="appendvalue('%')" class="calculater-number-clear">
+                    <p>%</p>
+                </div>
+                <div onclick="appendvalue('/')" class="calculater-number-clear">
+                    <p>/</p>
+                </div>
+
+
+                <div onclick="appendvalue('1')" class="calculater-number">
+                    <p>1</p>
+                </div>
+
+
+                <div onclick="appendvalue('2')" class="calculater-number">
+                    <p>2</p>
+                </div>
+                <div onclick="appendvalue('3')" class="calculater-number">
+                    <p>3</p>
+                </div>
+                <div onclick="appendvalue('+')" class="calculater-number-clear">
+                    <p>+</p>
+                </div>
+
+                <div onclick="appendvalue('4')" class="calculater-number">
+                    <p>4</p>
+                </div>
+                <div onclick="appendvalue('5')" class="calculater-number">
+                    <p>5</p>
+                </div>
+                <div onclick="appendvalue('6')" class="calculater-number">
+                    <p>6</p>
+                </div>
+                <div onclick="appendvalue('-')" class="calculater-number-clear">
+                    <p>-</p>
+                </div>
+
+
+                <div onclick="appendvalue('7')" class="calculater-number">
+                    <p>7</p>
+                </div>
+                <div onclick="appendvalue('8')" class="calculater-number">
+                    <p>8</p>
+                </div>
+                <div onclick="appendvalue('9')" class="calculater-number">
+                    <p>9</p>
+                </div>
+                <div onclick="appendvalue('*')" class="calculater-number-clear">
+                    <p>*</p>
+                </div>
+
+                <div onclick="appendvalue('.')" class="calculater-number">
+                    <p>.</p>
+                </div>
+                <div onclick="appendvalue('0')" class="calculater-number">
+                    <p>0</p>
+ 
+                </div>
+                     <div onclick="appendvalue('00')" class="calculater-number">
+                    <p>00</p>
+                      </div>
+                <div onclick="calculate()" class="calculater-number-calculate">
+                    <p>=</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

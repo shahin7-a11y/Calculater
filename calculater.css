@@ -1,0 +1,111 @@
+.calculater-bigcontainer{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculater-container{
+    height: 90%;
+    width: 35%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+.calculater-heading{
+    height: 20px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculater-heading p{
+    font-size: 30px;
+    color: rgb(255, 220, 220);
+}
+.div-1{
+    height: 70px;
+    width: 89%;
+    /* background-color: rgba(196, 192, 192, 0.822); */
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    /* padding-right: 5px; */
+    
+}
+.div-1 input{
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.div-2{
+    height: 80%;
+    width: 80%;
+    background-color: rgba(202, 202, 202, 0.541);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 9%;      
+}
+.calculater-number{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(201, 201, 201) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.calculater-number p{
+    font-size: 30px;
+    font-weight: 900;
+}
+.calculater-number button{
+   background: none;
+   border: none;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculater-number-clear{
+   height: 50px;
+    width: 50px;
+    background-color: rgb(255, 230, 0) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.calculater-number-clear p{
+        font-size: 30px;
+    font-weight: 900;
+}
+.calculater-number-calculate{
+       height: 50px;
+    width: 50px;
+    background-color: rgb(57, 197, 75) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.calculater-number-calculate p{
+            font-size: 30px;
+    font-weight: 900;
+}
